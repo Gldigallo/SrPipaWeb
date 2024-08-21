@@ -1,0 +1,6 @@
+export * from "./ui/nav/Nav"
+export * from "./ui/logo/Logo"
+export * from "./ui/arrow/Arrows"
+export * from "./ui/header/Header"
+export * from "./ui/sliderItem/SliderItem"
+export * from "./ui/sliderThumbnailItem/SliderThumbnailItem"
