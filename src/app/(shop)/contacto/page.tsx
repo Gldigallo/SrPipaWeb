@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function () {
+export const Contacto = () => {
   return (
     <div className="absolute">
       <h1>
@@ -8,4 +8,4 @@ export default function () {
       </h1>
     </div>
   );
-}
+};

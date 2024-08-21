@@ -1,7 +1,11 @@
-export default function () {
+import Link from "next/link"
+
+export const Category = () => {
   return (
-    <div>
-      <h1>Category Page</h1>
+    <div className="absolute">
+      <h1>
+        Volvder al <Link href="/">Inicio</Link>
+      </h1>
     </div>
-  );
+  )
 }

@@ -1,11 +1,11 @@
 import Link from "next/link";
 
-export default function () {
+export const Nosotros = () => {
   return (
-    <div className="">
+    <div className="absolute">
       <h1>
         Volvder al <Link href="/">Inicio</Link>
       </h1>
     </div>
   );
-}
+};
