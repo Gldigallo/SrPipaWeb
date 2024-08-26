@@ -1,4 +1,4 @@
-import { Header } from "@/components";
+import { Footer, Header, SideBar } from "@/components";
 
 export default function ShopLayout({
   children,
@@ -7,8 +7,12 @@ export default function ShopLayout({
 }) {
   return (
     <main>
-      <Header />
-      {children}
+      <div>
+        <Header />
+        <SideBar />
+      </div>
+      <div>{children}</div>
+      <Footer />
     </main>
   );
 }

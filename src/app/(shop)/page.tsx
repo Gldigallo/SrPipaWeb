@@ -96,7 +96,7 @@ export default function Home() {
           }
         />
       </ul>
-      <ul className="absolute bottom-0 z-10 flex justify-end sm:justify-end md:gap-3 w-screen h-[150px] sm:h-[200px] lg:h-[220px] px-14 o animation-delay-3">
+      <ul className="absolute bottom-0 z-10 justify-center flex sm:justify-end sm:gap-3 w-screen h-[150px] lg:h-[220px] px-14 o animation-delay-3">
         <Arrows onClickPrev={() => onPrev()} onClickNext={() => onNext()} />
         <SliderThumbnailItem
           itemActive={itemActive}

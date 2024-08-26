@@ -29,7 +29,7 @@ export const SliderItem = ({
       <div className=" absolute left-[3%] top-[11.5%] w-[328px] h-[350px] sm:w-[590px] lg:w-[800px] z-10">
         <h2
           className={cn(
-            "text-[26px] sm:text-5xl lg:text-7xl tracking-[10px] text-white font-bold translate-y-[30px] blur-[20px] opacity-0 animation-delay-2",
+            "text-[26px] sm:text-5xl lg:text-6xl tracking-[5px] text-white font-bold translate-y-[30px] blur-[20px] opacity-0 animation-delay-2",
             itemActive === id && "animate-show-content"
           )}
         >
@@ -37,19 +37,19 @@ export const SliderItem = ({
         </h2>
         <p
           className={cn(
-            "uppercase text-sm sm:text-xl lg:text-2xl text-white translate-y-[30px] blur-[20px] opacity-0 animation-delay-4",
+            "uppercase text-sm sm:text-xl lg:text-1xl text-white translate-y-[30px] blur-[20px] opacity-0 animation-delay-4",
             itemActive === id && "animate-show-content"
           )}
         >
           {desc}
+          <button
+            className={cn(
+              "mt-2 flex text-sm sm:text-xl lg:text-xl text-black font-bold bg-white border rounded-md"
+            )}
+          >
+            VER PRODUCTOS
+          </button>
         </p>
-        <button
-          className={cn(
-            "mt-4 text-sm sm:text-xl lg:text-2xl text-white font-bold border animation-delay-6 animate-show-content"
-          )}
-        >
-          VER PRODUCTOS
-        </button>
       </div>
     </li>
   );
